@@ -37,3 +37,8 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+
+# Don't sync any of the generated data nor logs nore snakemake files
+/results/*
+/logs/*
+.snakemake/*
